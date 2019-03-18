@@ -1,12 +1,15 @@
 import React from 'react';
 
 import ImageThumbnail from './components/HeaderComponents/ImageThumbnail';
+import HeaderTitle from './components/HeaderComponents/HeaderTitle';
+
 import './App.css';
 
 const App = () => {
   return (
     <div>
       <ImageThumbnail />
+      <HeaderTitle />
       <h3> Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components`
