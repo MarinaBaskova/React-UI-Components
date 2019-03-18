@@ -7,11 +7,12 @@ import './Header.css';
 const HeaderContainer = () => {
     return (
         <div className="headerCard">
+            <ImageThumbnail />
             <div className="topHeaderText">
-                <ImageThumbnail />
                 <HeaderTitle />
+                <HeaderContent />
             </div>
-            <HeaderContent />
+
         </div>
     )
 };
