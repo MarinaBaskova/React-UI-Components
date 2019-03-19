@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+.headerCard {
+    display: flex;
+}
+
+.logoImage {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.headerTitle {
+    display: flex;
+    align-items: baseline;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.headerTitle h4 {
+    margin-left: 0.6rem;
+    color: grey;
+    font-size: 1rem;
+}
+.headerContent{
+    width: 99%;
+}
+.headerContent p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

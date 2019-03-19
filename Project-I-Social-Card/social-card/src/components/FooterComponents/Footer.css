@@ -1,0 +1,15 @@
+.footer {
+    margin-top: 1rem;
+    margin-left: 69px;
+  }
+  
+  .footer p {
+    font-size: 1.1rem;
+    margin-right: 63px;
+    cursor: pointer;
+  }
+    
+    .fa-comment:before, .fa-sync:before, .fa-sync:before, .fa-heart:before, .fa-envelope:before {
+        color: grey;
+    }
+    
