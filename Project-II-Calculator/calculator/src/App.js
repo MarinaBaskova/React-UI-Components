@@ -33,7 +33,7 @@ const App = () => {
         <NumberButton buttonStyle="btn-red" text="+" />
       </div>
       <div className="btn-row">
-        <ActionButton buttonStyle="btn-zero" text="0" />
+        <ActionButton className="btn-zero" text="0" />
         <NumberButton buttonStyle="btn-red" text="=" />
       </div>
     </div>
